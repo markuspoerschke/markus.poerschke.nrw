@@ -1,0 +1,143 @@
+body {
+  font-family: 'Computer Modern Serif', serif;
+  font-size: 14pt;
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Computer Modern Sans', sans-serif; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+    text-decoration: inherit; }
+
+h1 {
+  margin-top: 0; }
+
+h2, h3, h4, h5, h6 {
+  margin-top: 2.828rem;
+  margin-bottom: 1.414rem; }
+
+p, pre, ul, ol {
+  margin-bottom: 1.414em; }
+
+p {
+  line-height: 1.414em; }
+
+ul li, ol li {
+  margin-bottom: 0.5em; }
+
+header {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eee;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem; }
+  header > .container {
+    display: grid;
+    grid-template-columns: auto auto auto; }
+  header nav,
+  header .alternative-languages {
+    font-family: 'Computer Modern Sans', sans-serif;
+    line-height: 2rem;
+    font-size: 0.8em; }
+    header nav a,
+    header .alternative-languages a {
+      color: #666;
+      text-decoration: none; }
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    header nav ul li {
+      display: inline-block;
+      margin-left: 1em; }
+      header nav ul li:first-child {
+        margin-left: 0; }
+  header .page-title {
+    font-family: 'Computer Modern Sans', sans-serif;
+    font-size: 1.414rem;
+    font-weight: bold; }
+    header .page-title a {
+      color: inherit;
+      text-decoration: none; }
+  header .alternative-languages ul {
+    list-style-position: inside;
+    list-style: none;
+    margin: 0;
+    text-align: right; }
+    header .alternative-languages ul li {
+      display: inline-block; }
+
+footer {
+  margin-top: 2.828rem;
+  font-size: 0.70721358rem; }
+  footer :before {
+    border: 1px solid #000000;
+    border-bottom: none;
+    width: 10em;
+    margin-left: 0; }
+
+pre {
+  overflow: auto;
+  padding: 1em;
+  background-color: #eeeeee;
+  font-size: 0.8em; }
+
+img {
+  max-width: 100%; }
+
+figure {
+  margin: 1em 3em; }
+  @media only screen and (min-width: 521px) {
+    figure.float-left, figure.float-right {
+      line-height: 0;
+      margin: 0;
+      margin-bottom: 0.707em;
+      width: 13.433em; }
+      figure.float-left figcaption, figure.float-right figcaption {
+        line-height: 1.414em; }
+    figure.float-left {
+      margin-right: 1em;
+      float: left; }
+    figure.float-right {
+      margin-left: 1em;
+      float: right; } }
+
+dl {
+  display: grid;
+  grid-auto-flow: column; }
+  dl dt {
+    grid-column: 1;
+    font-weight: bold; }
+  dl dt, dl dd {
+    padding-bottom: 0.5em; }
+
+.container {
+  margin: auto;
+  max-width: 48rem;
+  padding: 0 2rem; }
+
+.content:after {
+  content: ".";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0; }
+
+.content p {
+  hyphens: auto;
+  text-align: justify; }
+
+.article-meta {
+  font-size: 0.8em;
+  font-family: 'Computer Modern Sans', sans-serif;
+  color: #666; }
+
+.blog-articles article {
+  margin-bottom: 2.828em; }
+  .blog-articles article h2 {
+    margin: 0; }
+  .blog-articles article .article-meta {
+    margin-bottom: 0; }
+  .blog-articles article *:last-child {
+    margin-bottom: 0; }

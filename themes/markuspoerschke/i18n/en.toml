@@ -1,0 +1,15 @@
+[about-me]
+other = "About Me"
+
+[imprint]
+other = "Imprint"
+
+[articles]
+other = "Blog Posts"
+
+[readingTime]
+one = "One minute read"
+other = "{{.Count}} minutes read"
+
+[readOn]
+other = "continue reading"

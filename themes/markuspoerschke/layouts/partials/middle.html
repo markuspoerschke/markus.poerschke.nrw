@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>{{ i18n "articles" }}</h1>
+    <section class="blog-articles">
+        {{ range first 100000 .Pages }}
+            {{ if eq .Type "blog"}}
+                <article>
+                    <h2>
+                        <a href="{{ .Permalink }}">
+                            {{ .Title }} {{ if .Draft }} <span style="color:#ff4136;">(unpublished)</span>{{ end }}
+                        </a>
+                    </h2>
+                    <aside class="article-meta">
+                        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "2006-01-02"}}</time>,
+                        {{ i18n "readingTime" .ReadingTime }}
+                    </aside>
+                    <p>{{ .Summary }}</p>
+                    <p>
+                        <a href="{{ .Permalink }}">
+                            {{ i18n "readOn" }}
+                        </a>
+                    </p>
+                </article>
+            {{ end }}
+        {{ end }}
+    </section>
+</div>

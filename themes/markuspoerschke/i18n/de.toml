@@ -1,0 +1,15 @@
+[about-me]
+other = "Über mich"
+
+[imprint]
+other = "Impressum"
+
+[articles]
+other = "Blog-Artikel"
+
+[readingTime]
+one = "Eine Minute Lesezeit"
+other = "{{.Count}} Minuten Lesezeit"
+
+[readOn]
+other = "weiterlesen"

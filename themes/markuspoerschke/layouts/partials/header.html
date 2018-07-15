@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="{{ with .Params.robots }}{{ . }}{{ else }}{{ .Site.Params.robots }}{{ end }}">
+    <title>
+        {{- if not .IsHome }}
+        {{- if eq .Kind "page" }}{{ .Title }}
+        {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
+        {{- else }}Posts
+        {{- end }} &middot; {{ end }}
+        {{- .Site.Title -}}
+    </title>
+
+    {{ $styles := resources.Get "styles/main.scss" | toCSS }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}fonts/fonts.css">
+
+    <meta name="generator" content="Hugo {{ .Hugo.Version }}">
+
+    {{ range .AlternativeOutputFormats -}}
+        <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
+    {{ end -}}
+
+
+    {{ if .IsTranslated }}
+        {{ range .Translations }}
+            <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Language.Lang }}">
+        {{ end}}
+    {{ end }}
+</head>
+<body>
+
+
+<header>
+    <div class="container">
+        <div class="page-title">
+            <a href="{{ "/" | relLangURL }}">Markus Poerschke</a>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="{{ .RelRef "about-me" }}">{{ i18n "about-me" }}</a>
+                </li>
+                <li>
+                    <a href="{{ .RelRef "impressum" }}">{{ i18n "imprint" }}</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="alternative-languages">
+            {{ if .IsTranslated }}
+            <ul>
+                {{ range .Translations }}
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                </li>
+                {{ end}}
+            </ul>
+            {{ end }}
+        </div>
+    </div>
+</header>
