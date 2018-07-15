@@ -1,6 +1,6 @@
 ---
 title: "Good Commit Messages"
-date: 2018-07-08
+date: 2018-07-15
 ---
 
 Personally I like to look at the commit history of different projects.

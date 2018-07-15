@@ -1,6 +1,6 @@
 ---
 title: "Gute Commit-Messages"
-date: 2018-07-08
+date: 2018-07-15
 slug: "gute-commit-messages"
 ---
 
