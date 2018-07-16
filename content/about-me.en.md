@@ -34,3 +34,11 @@ On GitHub there is an open source package for creating my iCal calendar: [iCal P
 
 2018 - heute
 : Senior Software Developer at [CARL von CHIARI](https://cvc.digital)
+
+## Contact me
+
+* [Twitter](https://twitter.com/markuspoerschke)
+* [GitHub](https://github.com/markuspoerschke)
+* [Xing](https://www.xing.com/profile/Markus_Poerschke2)
+* [LinkedIn](https://www.linkedin.com/in/markuspoerschke/)
+* [Email](mailto:markus@poerschke.nrw)
