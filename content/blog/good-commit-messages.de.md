@@ -109,7 +109,7 @@ In unserem Beispiel für das Projekt `WEB` würde der Ausdruck dann so aussehen:
 WEB-\d+
 ```
 
-Die Push-Regeln lassen sich in GitLab unter dem Punkt *Repository* &gt; *Repository* &gt; *Push Rules* einstellen.
+Die Push-Regeln lassen sich in GitLab (ab Starter/Bronze) unter dem Punkt *Repository* &gt; *Repository* &gt; *Push Rules* einstellen.
 
 ### Zusammenfassung
 

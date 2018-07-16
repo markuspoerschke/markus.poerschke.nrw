@@ -107,7 +107,7 @@ In our example for the project `WEB` the expression would look like this:
 WEB-\d+
 ```
 
-The push rules can be set in GitLab under *Repository* &gt; *Repository* &gt; *Push Rules*.
+The push rules can be set in GitLab (requires Starter/Bronze) under *Repository* &gt; *Repository* &gt; *Push Rules*.
 
 ### Summary
 
