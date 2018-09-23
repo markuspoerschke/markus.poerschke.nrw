@@ -1,14 +1,7 @@
-FROM node:10-alpine as ASSETS
-ADD themes/markuspoerschke /app/themes/markuspoerschke
-RUN cd /app/themes/markuspoerschke \
-    && yarn --non-interactive --no-progess \
-    && yarn build \
-    && ls static/assets
-
 FROM alpine:3.6 as HUGO
 
 # Download and install hugo
-ENV HUGO_VERSION 0.43
+ENV HUGO_VERSION 0.47.1
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-64bit
 
 # Install pygments (for syntax highlighting)
@@ -21,7 +14,6 @@ RUN tar xzf /usr/local/${HUGO_BINARY}.tar.gz -C /usr/local/bin/ \
 
 # copy files and build site
 ADD . /app
-COPY --from=ASSETS /app/themes/markuspoerschke/static/assets /app/themes/markuspoerschke/static/assets
 RUN hugo --source=/app --destination=/public
 
 FROM nginx:stable-alpine

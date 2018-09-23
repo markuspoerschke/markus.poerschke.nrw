@@ -43,10 +43,18 @@
         <nav>
             <ul>
                 <li>
-                    <a href="{{ .RelRef "about-me" }}">{{ i18n "about-me" }}</a>
+                    {{ with .Site.GetPage "/about-me" }}
+                        <a href="{{ .URL }}">
+                            {{ .Title }}
+                        </a>
+                    {{ end }}
                 </li>
                 <li>
-                    <a href="{{ .RelRef "impressum" }}">{{ i18n "imprint" }}</a>
+                    {{ with .Site.GetPage "/impressum" }}
+                        <a href="{{ .URL }}">
+                            {{ .Title }}
+                        </a>
+                    {{ end }}
                 </li>
             </ul>
         </nav>

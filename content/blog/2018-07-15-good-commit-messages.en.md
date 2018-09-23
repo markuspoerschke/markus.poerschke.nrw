@@ -1,6 +1,7 @@
 ---
 title: "Good Commit Messages"
 date: 2018-07-15
+slug: "good-commit-messages"
 ---
 
 Personally I like to look at the commit history of different projects.
