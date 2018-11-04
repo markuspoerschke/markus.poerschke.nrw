@@ -14,6 +14,7 @@ RUN tar xzf /usr/local/${HUGO_BINARY}.tar.gz -C /usr/local/bin/ \
 
 # copy files and build site
 ADD . /app
+RUN hugo version
 RUN hugo --source=/app --destination=/public
 
 FROM nginx:stable-alpine
