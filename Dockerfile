@@ -6,6 +6,7 @@ ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-64bit
 
 # Install pygments (for syntax highlighting)
 RUN apk update && apk add py-pygments && apk add git && apk add bash && rm -rf /var/cache/apk/*
+RUN apk update && apk add nodejs && apk add yarn && yarn global add postcss-cli
 
 # Download and Install hugo
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY}.tar.gz /usr/local/
