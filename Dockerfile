@@ -1,7 +1,7 @@
 FROM alpine:3.8 as HUGO
 
 # Download and install hugo
-ENV HUGO_VERSION 0.50
+ENV HUGO_VERSION 0.50_extended
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-64bit
 
 # Install pygments (for syntax highlighting)
