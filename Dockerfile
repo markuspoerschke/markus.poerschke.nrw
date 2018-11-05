@@ -1,12 +1,25 @@
-FROM alpine:3.6 as HUGO
+FROM alpine:3.8 as HUGO
 
 # Download and install hugo
 ENV HUGO_VERSION 0.50
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-64bit
 
 # Install pygments (for syntax highlighting)
-RUN apk update && apk add py-pygments && apk add git && apk add bash && rm -rf /var/cache/apk/*
-RUN apk update && apk add nodejs && apk add yarn && yarn global add postcss-cli
+RUN apk update \
+    && apk add --no-cache \
+        py-pygments \
+        git \
+        bash \
+        nodejs \
+        npm \
+        curl \
+        openssh-client \
+        rsync
+
+RUN npm install -g postcss-cli autoprefixer
+
+RUN curl -L https://bin.equinox.io/c/dhgbqpS8Bvy/minify-stable-linux-amd64.tgz | tar -xz \
+    && mv minify /usr/local/bin/
 
 # Download and Install hugo
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY}.tar.gz /usr/local/
