@@ -1,13 +1,13 @@
-FROM alpine:3.8 as HUGO
+FROM ubuntu as HUGO
 
 # Download and install hugo
-ENV HUGO_VERSION 0.50
+ENV HUGO_VERSION 0.49.1
 ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_linux-64bit
 
 # Install pygments (for syntax highlighting)
-RUN apk update \
-    && apk add --no-cache \
-        py-pygments \
+RUN apt-get update \
+    && apt-get install -y \
+        python3-pygments  \
         git \
         bash \
         nodejs \
@@ -28,8 +28,9 @@ RUN tar xzf /usr/local/${HUGO_BINARY}.tar.gz -C /usr/local/bin/ \
 
 # copy files and build site
 ADD . /app
-RUN hugo version
-RUN hugo --source=/app --destination=/public
+RUN ls -lah /usr/local/bin/
+RUN /usr/local/bin/hugo version
+RUN /usr/local/bin/hugo --source=/app --destination=/public
 
 FROM nginx:stable-alpine
 COPY --from=HUGO /public/ /usr/share/nginx/html/
