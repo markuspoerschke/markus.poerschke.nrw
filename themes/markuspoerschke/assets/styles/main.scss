@@ -181,6 +181,14 @@ dl {
     }
 }
 
+blockquote {
+    font-style: italic;
+
+    cite {
+        font-style: normal;
+    }
+}
+
 .container {
     margin: auto;
     max-width: 48rem;
