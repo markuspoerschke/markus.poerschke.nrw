@@ -20,20 +20,20 @@ On GitHub there is an open source package for creating my iCal calendar: [iCal P
 
 ## Curriculum Vitae
 
-2010 - 2013
-: Apprenticeship at [CHIARI](https://www.chiari.de)
-
-2010 - 2014
-: Business Informatics (B. Sc.) at the [FOM University](https://www.fom.de/english-site/fom-university.html) in Düsselorf
-
-2014 - 2016
-: Software Engineer at [trivago](https://www.trivago.com)
+2018 - heute
+: Senior Software Developer at [CARL von CHIARI](https://cvc.digital)
 
 2016 - 2018
 : Senior Software Developer at [comwrap](https://www.comwrap.com)
 
-2018 - heute
-: Senior Software Developer at [CARL von CHIARI](https://cvc.digital)
+2014 - 2016
+: Software Engineer at [trivago](https://www.trivago.com)
+
+2010 - 2014
+: Business Informatics (B. Sc.) at the [FOM University](https://www.fom.de/english-site/fom-university.html) in Düsselorf
+
+2010 - 2013
+: Apprenticeship at [CHIARI](https://www.chiari.de)
 
 ## Contact me
 

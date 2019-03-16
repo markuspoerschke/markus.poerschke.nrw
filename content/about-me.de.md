@@ -21,20 +21,21 @@ Auf GitHub gibt es ein Open Source-Paket zur Erstellung von iCal-Kalender von mi
 
 ## Lebenslauf
 
-2010 - 2013
-: Ausbildung bei [CHIARI](https://www.chiari.de) zum Fachinformatiker für Anwendungsentwicklung
-
-2010 - 2014
-: Wirtschaftsinformatik (B. Sc.) an der [FOM Hochschule](https://www.fom.de) in Düsselorf
-
-2014 - 2016
-: Software-Engineer bei [trivago](https://www.trivago.de)
+2018 - heute
+: Senior Software-Developer bei [CARL von CHIARI](https://cvc.digital)
 
 2016 - 2018
 : Senior Software-Developer bei [comwrap](https://www.comwrap.com)
 
-2018 - heute
-: Senior Software-Developer bei [CARL von CHIARI](https://cvc.digital)
+2014 - 2016
+: Software-Engineer bei [trivago](https://www.trivago.de)
+
+2010 - 2014
+: Wirtschaftsinformatik (B. Sc.) an der [FOM Hochschule](https://www.fom.de) in Düsselorf
+
+2010 - 2013
+: Ausbildung bei [CHIARI](https://www.chiari.de) zum Fachinformatiker für Anwendungsentwicklung
+
 
 ## Kontakt aufnehmen
 
