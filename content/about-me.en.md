@@ -20,7 +20,7 @@ On GitHub there is an open source package for creating my iCal calendar: [iCal P
 
 ## Curriculum Vitae
 
-2018 - heute
+2018 - today
 : Senior Software Developer at [CARL von CHIARI](https://cvc.digital)
 
 2016 - 2018
