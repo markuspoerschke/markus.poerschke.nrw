@@ -13,7 +13,7 @@ Starting with the creation of simple pages with HTML and CSS – PHP is now my p
 I am working at [CARL von CHIARI](https://cvc.digital) in [Düsseldorf](https://www.duesseldorf.de).
 I create web applications using [PHP](https://secure.php.net/), [Symfony](https://symfony.com/) and [TYPO3](https://typo3.org).
 
-In my spare time I am finishing my Master in IT Management at the FOM University in Düsseldorf. 
+In 2019 I completed my studies for my Master of Science in IT Management at the [FOM Hochschule](https://www.fom.de/) in Düsseldorf.
 I have already successfully completed my Bachelor of Science in Business Informatics there.
 
 On GitHub there is an open source package for creating my iCal calendar: [iCal PHP library](https://github.com/markuspoerschke/ical).
@@ -22,6 +22,9 @@ On GitHub there is an open source package for creating my iCal calendar: [iCal P
 
 2018 - today
 : Senior Software Developer at [CARL von CHIARI](https://cvc.digital)
+
+2015 - 2019
+: IT Management (M. Sc.) an der [FOM Hochschule](https://www.fom.de) in Düsselorf
 
 2016 - 2018
 : Senior Software Developer at [comwrap](https://www.comwrap.com)

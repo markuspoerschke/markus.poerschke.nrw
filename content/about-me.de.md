@@ -14,8 +14,8 @@ ist PHP nun die Programmiersprache meines vertrauens.
 Hauptberuflich arbeite ich für [CARL von CHIARI](https://cvc.digital) in [Düsseldorf](https://www.duesseldorf.de).
 Ich erstelle Web-Anwendungen mit [PHP](https://secure.php.net/), [Symfony](https://symfony.com/) und [TYPO3](https://typo3.org).
 
-In meiner Freizeit beende ich gerade meinen Master in IT-Management an der [FOM Hochschule](https://www.fom.de/) in Düsseldorf.
-Dort habe ich bereits meinen Bachelor of Science in Wirtschaftsinformatik erfolgreich abgeschlossen.
+Im Sommer 2019 habe ich meinen Master of Science im Modul IT-Management an der [FOM Hochschule](https://www.fom.de/) in Düsseldorf erworben.
+Dort habe ich bereits mein Studium zum Bachelor of Science in Wirtschaftsinformatik erfolgreich abgeschlossen.
 
 Auf GitHub gibt es ein Open Source-Paket zur Erstellung von iCal-Kalender von mir: [iCal PHP-Bibliothek](https://github.com/markuspoerschke/ical).
 
@@ -23,6 +23,9 @@ Auf GitHub gibt es ein Open Source-Paket zur Erstellung von iCal-Kalender von mi
 
 2018 - heute
 : Senior Software-Developer bei [CARL von CHIARI](https://cvc.digital)
+
+2015 - 2019
+: IT-Management (M. Sc.) an der [FOM Hochschule](https://www.fom.de) in Düsselorf
 
 2016 - 2018
 : Senior Software-Developer bei [comwrap](https://www.comwrap.com)
