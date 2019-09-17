@@ -6,6 +6,10 @@ author = "Markus Poerschke"
 name = "Markus Poerschke"
 theme = "markuspoerschke"
 
+pygmentsCodefences = true
+pygmentsStyle = "github"
+pygmentsUseClasses = true
+
 [params]
 robots = "index, follow"
 

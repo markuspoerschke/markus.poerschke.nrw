@@ -12,6 +12,8 @@ $grey: #eee;
     font-family: 'Computer Modern Sans', sans-serif;
 }
 
+@import "chroma.scss";
+
 body {
     @include fontSerif();
     font-size: 14pt;
@@ -207,6 +209,10 @@ blockquote {
     p {
         hyphens: auto;
         text-align: justify;
+    }
+
+    ul li p {
+        text-align: left;
     }
 }
 

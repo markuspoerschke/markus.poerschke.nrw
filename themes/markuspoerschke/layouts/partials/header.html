@@ -15,8 +15,9 @@
     </title>
 
     {{ $styles := resources.Get "styles/main.scss" | toCSS }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}fonts/fonts.css">
+
+    <link media="all" rel="stylesheet" href="{{ $styles.Permalink }}">
+    <link media="all" rel="stylesheet" href="{{ .Site.BaseURL }}fonts/fonts.css">
 
     <meta name="generator" content="Hugo {{ .Hugo.Version }}">
 
