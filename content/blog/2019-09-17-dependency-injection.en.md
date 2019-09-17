@@ -4,10 +4,11 @@ date: 2019-09-17
 slug: "dependency-injection"
 ---
 
-Eines der wichtigsten Prinzipien der Softwareentwicklung ist die Seperation of Concerns,
-nach der verschiedene Anliegen in getrennten Abschnitten eines Programms erfolgen sollen.
-Die Erstellung von Objekten und die Ausführung von Geschäftslogik sind zwei verschiedene
-Anliegen. Das Dependency-Injection Entwurfsmuster hilft bei der Trennung der beiden Anliegen.
+One of the most important principles of software development is the
+Separation of Concerns, according to which different concerns are to take place
+in separate sections of a program. The creation of objects and the execution of
+business logic are two different concerns. The Dependency Injection design
+pattern helps to separate the two concerns.
 
 <!--more-->
 
