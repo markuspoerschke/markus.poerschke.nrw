@@ -41,31 +41,12 @@
             <a href="{{ "/" | relLangURL }}">Markus Poerschke</a>
         </div>
 
-        <nav>
-            <ul>
-                <li>
-                    {{ with .Site.GetPage "/about-me" }}
-                        <a href="{{ .URL }}">
-                            {{ .Title }}
-                        </a>
-                    {{ end }}
-                </li>
-                <li>
-                    {{ with .Site.GetPage "/impressum" }}
-                        <a href="{{ .URL }}">
-                            {{ .Title }}
-                        </a>
-                    {{ end }}
-                </li>
-            </ul>
-        </nav>
-
         <div class="alternative-languages">
             {{ if .IsTranslated }}
             <ul>
                 {{ range .Translations }}
                 <li>
-                    <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                    <a href="{{ .Permalink }}" hreflang="{{ .Language.Params.Languagecode }}">{{ .Language.LanguageName }}</a>
                 </li>
                 {{ end}}
             </ul>

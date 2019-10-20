@@ -1,6 +1,23 @@
 <div class="container">
     <footer>
-        <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
+        <nav>
+            <ul>
+                <li>
+                    {{ with .Site.GetPage "/about-me" }}
+                    <a href="{{ .URL }}">
+                        {{ .Title }}
+                    </a>
+                    {{ end }}
+                </li>
+                <li>
+                    {{ with .Site.GetPage "/impressum" }}
+                    <a href="{{ .URL }}">
+                        {{ .Title }}
+                    </a>
+                    {{ end }}
+                </li>
+            </ul>
+        </nav>
     </footer>
 </div>
 
