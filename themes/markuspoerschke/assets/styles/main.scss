@@ -1,8 +1,33 @@
 $sqrtOf2: 1.414;
 $sqrtOf2em: 1.414em;
-$light-grey: #f8f8f8;
-$dark-grey: #666;
-$grey: #eee;
+
+@import "chroma.scss";
+
+html {
+    --background-color: #fff;
+    --text-color: #000;
+    --dark-grey: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --background-color: #202020;
+        --text-color: #efefef;
+        --dark-grey: #999;
+
+        a {
+            color: #0086b3;
+        }
+
+        pre {
+            color: black;
+        }
+
+        .chroma {
+            background-color: #777;
+        }
+    }
+}
 
 @mixin fontSerif() {
     font-family: 'Computer Modern Serif', serif;
@@ -12,10 +37,10 @@ $grey: #eee;
     font-family: 'Computer Modern Sans', sans-serif;
 }
 
-@import "chroma.scss";
-
 body {
     @include fontSerif();
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-size: 14pt;
     padding: 0;
     margin: 0;
@@ -61,7 +86,7 @@ header {
         text-align: center;
         font-size: $sqrtOf2 * 2rem;
         font-weight: bold;
-        border-bottom: 1px solid $dark-grey;
+        border-bottom: 1px solid var(--dark-grey);
         margin-bottom: 0.25em;
 
         a {
@@ -77,7 +102,7 @@ header {
         font-size: 0.8em;
 
         a {
-            color: $dark-grey;
+            color: var(--dark-grey);
             text-decoration: none;
         }
 
@@ -102,7 +127,7 @@ footer {
         @include fontSans();
 
         a {
-            color: $dark-grey;
+            color: var(--dark-grey);
             text-decoration: none;
         }
 
@@ -220,7 +245,7 @@ blockquote {
 .article-meta {
     font-size: 0.8em;
     @include fontSans;
-    color: $dark-grey;
+    color: var(--dark-grey);
 }
 
 .blog-articles {
@@ -258,7 +283,7 @@ blockquote {
     }
 
     pre {
-        border: 1px solid $dark-grey;
+        border: 1px solid var(--dark-grey);
     }
 
     a[href^="http"] {
