@@ -10,6 +10,7 @@ This imprint applies to:
 * Twitter: https://twitter.com/markuspoerschke
 * Xing: https://www.xing.com/profile/Markus_Poerschke2
 * LinkedIn: https://www.linkedin.com/in/markuspoerschke/
+* iCal Project Website: https://ical.poerschke.nrw/
 
 ## Responsible person
 

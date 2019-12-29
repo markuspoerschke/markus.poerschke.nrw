@@ -9,6 +9,7 @@ Dieses Impressum gilt für:
 * Twitter: https://twitter.com/markuspoerschke
 * Xing: https://www.xing.com/profile/Markus_Poerschke2
 * LinkedIn: https://www.linkedin.com/in/markuspoerschke/
+* iCal Projekt-Website: https://ical.poerschke.nrw/
 
 ## Verantwortlicher
 
