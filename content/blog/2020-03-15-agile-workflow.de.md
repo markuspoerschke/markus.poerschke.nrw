@@ -16,9 +16,9 @@ In diesem Artikel möchte ich einen einfachen agilen Entwicklungsprozess vorstel
 Viele Arbeitsabläufe versuchen, alle denkbaren Situationen und Zustände abzudecken, die vielleicht irgendwann einmal auftreten könnten.
 Dies führt oft zu Verwirrung und Frustration bei den beteiligten Personen.
 Am Ende geht es nicht mehr darum, einen Wert für das Produkt zu schaffen, sondern das „Ticket“ einfach weiter zu schieben.
-Spätestens es dann soweit kommt, dass das Zuweisen an einen Kollegen von der eigenen Verantwortung „befreit“, sollte die „Agilität“ des Projektvorgehens in Frage gestellt werden.
+Spätestens, wenn es dann soweit kommt, dass das Zuweisen an einen Kollegen von der eigenen Verantwortung „befreit“, sollte die „Agilität“ des Projektvorgehens in Frage gestellt werden.
 
-Die nachfolgende Grafik zeigt eine überspitzte Darstellung eines hochgradig komplizierten Arbeitsablauf.
+Die nachfolgende Grafik zeigt eine überspitzte Darstellung eines hochgradig komplizierten Arbeitsablaufes.
 Jeder der gezeigten Zustände ist mir bereits bei der Arbeit in unterschiedlichen Projekten begegnet.
 Es wird versucht, jeden einzelnen Schritt im Prozess zu definieren und abzubilden.
 Dabei entstehen immer neue Wege innerhalb des Prozesses, die die Außnahmen von Außnahmen behandeln.
@@ -46,7 +46,7 @@ Bevor ich einen alternativen Ablauf vorstelle, möchte ich zunächst die Begriff
     Um keiner Methode einen Vorrang zu geben, wird hier einfach nur der Begriff Eintrag verwendet.
 
 * **Arbeitsablauf:**
-    The workflow, defines the steps that an item must go through until it adds value to the product.
+    Der Arbeitsablauf definiert die Schritte, die ein Eintrag durchlaufen muss, bis er einen Mehrwert für das Produkt schafft.
 
 * **Übergang:**
     Der Wechsel zwischen zwei Status wird als Übergang bezeichnet.
@@ -56,7 +56,7 @@ Bevor ich einen alternativen Ablauf vorstelle, möchte ich zunächst die Begriff
 
 Der agile Arbeitsablauf benötigt nicht viel.
 Er kommt mit vier Status und drei Übergängen aus.
-Er ist einfach, einprägsam und auf das notwendigste reduziert.
+Er ist einfach, einprägsam und auf das Notwendigste reduziert.
 Das Prinzip „Einfachheit -- die Kunst, die Menge nicht getaner Arbeit zu maximieren -- ist essenziell“ aus dem Agilen Manifest wird so erfüllt.
 
 <figure>
@@ -94,13 +94,13 @@ Die Teammitglieder können sich gemäß dem „Pull-Prinzip“ an diesen Tickets
 ### In Progress
 
 Sobald ein Teammitglied an einem Eintrag arbeitet, erhält der Eintrag den Status „In Progress“.
-Der Eintrag verbleibt in diesem Status bis alle Kriterien der Definition of Done erfüllt sind.
+Der Eintrag verbleibt in diesem Status bis alle Kriterien der Definition-of-Done erfüllt sind.
 Ein zurücklegen in einen vorherigen Status ist nicht mehr möglich.
 Eine einmal begonnene Arbeit muss abgeschlossen werden.
 
 ### Done
 
-Die Definition of Done stellt Regeln auf, die erfüllt sein müssen, um ein Eintrag als abgeschlossen anzusehen.
+Die Definition-of-Done stellt Regeln auf, die erfüllt sein müssen, um ein Eintrag als abgeschlossen anzusehen.
 Ein Eintrag wird als „Done“ angesehen, sobald alle diese Kriterien erfüllt sind.
 
 ## Die Übergänge
@@ -170,7 +170,7 @@ In diesem Kapitel möchte ich einige Beispiele für Status geben, die besser nic
 An Einträgen, die sich im Status "Blocked" befinden, kann nicht weiter gearbeitet werden.
 Eine solche Situation sollte eigentlich die Ausnahme darstellen.
 Warum sollte also dafür ein dedizierter Status geschaffen werden?
-Oft sind es Situationen, die sich mit einer Defintion of Ready bereits im Vorfeld verhindern ließen.
+Oft sind es Situationen, die sich mit einer Definition-of-Ready bereits im Vorfeld verhindern ließen.
 Einträge, bei denen schon absehbar ist, dass sie „blockieren“, sollten gar nicht erst in „Ready“ oder gar „In Progress“ wandern.
 
 Angenommen es wird eine Vorarbeit eines anderen Teams wie die Beschaffung eines Servers oder die Bereitstellung von Informationen benötigt,
@@ -213,13 +213,13 @@ Es ist aber auch möglich komplexe Software, wie Jira zu verwenden, wo der Workf
 
 ## TLDR;
 
-1. Reduziere die Status der Einträge auf
+1. Reduziert die Status der Einträge auf
     * Backlog
     * Ready
     * In Progress
     * Done
 2. Startet, wenn möglich, mit einem physischen Board
-3. Nutzt die Definition of Done und Definition of Ready
+3. Nutzt die Definition-of-Done und Definition of Ready
 4. Nutzt direkte Kommunikation, um Fragen zu beantworten
 
 [1]: https://agilemanifesto.org/iso/de/manifesto.html
