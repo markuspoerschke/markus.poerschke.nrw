@@ -2,6 +2,7 @@
 title: "Run Ackee on a self-hosted Dokku server"
 date: 2019-10-20
 slug: "run-ackee-on-dokku"
+description: "Tutorial: For the range measurement on websites, the analysis tool "Ackee" can be installed on a self-hosted docu server."
 ---
 
 [Ackee](https://ackee.electerious.com) is an analytics tool that captures statistics about website visits.

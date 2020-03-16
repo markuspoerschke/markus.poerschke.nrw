@@ -2,6 +2,7 @@
 title: "Consistent code style with editor configuration"
 date: 2019-03-15
 slug: "consistent-code-style-with-editor-configuration"
+description: "The EditorConfig helps developers to define and maintain consistent programming styles between different editors and IDEs."
 ---
 
 There are many code styles. Is indented with tabs or with spaces? How many spaces? –

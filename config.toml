@@ -12,6 +12,7 @@ pygmentsUseClasses = true
 
 [params]
 robots = "index, follow"
+description = "I am a software engineer from Velbert (Germany). In my blog I share my work expirience."
 
 [params.navigation]
 about_me  = "About me"
@@ -27,5 +28,6 @@ languageCode = "de-de"
 weight = 2
 languageName = "Diesen Beitrag auf Deutsch lesen"
 [languages.de.params]
+description = "Ich bin Software-Engineer aus Velbert. In meinem Blog schreibe ich über meine Erfahrung in der Softwareentwicklung."
 [languages.de.params.navigation]
 about_me  = "Über mich"

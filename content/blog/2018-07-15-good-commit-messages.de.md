@@ -2,6 +2,7 @@
 title: "Gute Commit-Messages"
 date: 2018-07-15
 slug: "gute-commit-messages"
+description: "Die Arbeit in Software-Entwicklungs-Teams werden durch gute Commit-Messages unterstützt. Sie helfen anderen Entwicklern Änderungen besser zu verstehen."
 ---
 
 Persönlich schaue ich mir gerne die Commit-History von verschiedenen Projekten an. 

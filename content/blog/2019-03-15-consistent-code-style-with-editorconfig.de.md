@@ -2,6 +2,7 @@
 title: "Konsequenter Code-Style mit Editor-Konfiguration"
 date: 2019-03-15
 slug: "konsequenter-code-style-mit-editor-konfiguration"
+description: "Die EditorConfig hilft Entwicklern bei der Definition und Pflege konsistenter Programmierstile zwischen verschiedenen Editoren und IDEs."
 ---
 
 Code-Styles gibt es viele. Wird mit Tabs eingerückt oder mit Leerzeichen? Wie viele Leerzeichen? –

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="{{ with .Params.robots }}{{ . }}{{ else }}{{ .Site.Params.robots }}{{ end }}">
+    <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <title>
         {{- if not .IsHome }}
         {{- if eq .Kind "page" }}{{ .Title }}
@@ -27,6 +28,7 @@
 
 
     {{ if .IsTranslated }}
+        <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Language.Lang }}">
         {{ range .Translations }}
             <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Language.Lang }}">
         {{ end}}

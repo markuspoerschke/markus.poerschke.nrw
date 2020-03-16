@@ -2,6 +2,7 @@
 title: "Dependency Injection"
 date: 2019-09-17
 slug: "dependency-injection"
+description: "Consistent compliance with dependency injection contributes to a better code base in object-oriented programming."
 ---
 
 One of the most important principles of software development is the

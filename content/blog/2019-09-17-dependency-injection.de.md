@@ -2,6 +2,7 @@
 title: "Dependency-Injection"
 date: 2019-09-17
 slug: "dependency-injection"
+description: "Die konsequente Einhaltung von Dependency-Injection trägt zu einer besseren Code-Basis in der objektorientierten Programmierung bei."
 ---
 
 Eines der wichtigsten Prinzipien der Softwareentwicklung ist die Seperation of Concerns,
