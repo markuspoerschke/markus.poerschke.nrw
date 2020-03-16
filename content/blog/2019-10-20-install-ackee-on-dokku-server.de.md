@@ -2,7 +2,7 @@
 title: "Ackee auf dem eigenen Dokku-Server installieren"
 date: 2019-10-20
 slug: "ackee-auf-dem-eigenen-dokku-server-installieren"
-description: "Anleitung: Für die Reichweitenmessung auf Webseiten, kann das Analyse-Tool "Ackee" auf einem self-hosted Dokku-Server installiert werden."
+description: "Anleitung: Für die Reichweitenmessung auf Webseiten, kann das Analyse-Tool Ackee auf einem self-hosted Dokku-Server installiert werden."
 ---
 
 [Ackee](https://ackee.electerious.com) ist ein Analyse-Tool, mit dem Statistiken über Webseitenbesuche erfasst werden können.
