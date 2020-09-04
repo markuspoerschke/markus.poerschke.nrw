@@ -31,3 +31,8 @@ languageName = "Diesen Beitrag auf Deutsch lesen"
 description = "Ich bin Software-Engineer aus Velbert. In meinem Blog schreibe ich über meine Erfahrung in der Softwareentwicklung."
 [languages.de.params.navigation]
 about_me  = "Über mich"
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark.renderer]
+unsafe = true  # Enable user to embed HTML snippets in Markdown content.
