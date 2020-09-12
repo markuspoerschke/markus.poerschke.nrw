@@ -4,15 +4,15 @@ slug = "ueber-mich"
 +++
 
 <figure class="float-left">
-    <img src="/images/markus_poerschke_comic.jpg" alt="Ein Bild von mir als Comic-Zeichnung">
+    <img src="/images/markus_poerschke.jpg" alt="Portraitfoto">
 </figure>
 
 Ich bin Software-Engineer aus [Velbert](https://www.velbert.de). 
 Software-Entwicklung begeistert mich schon lange. Angefangen mit der Erstellung von einfachen Seiten mit HTML und CSS, 
 ist PHP nun die Programmiersprache meines vertrauens.
 
-Hauptberuflich arbeite ich für [CARL von CHIARI](https://cvc.digital) in [Düsseldorf](https://www.duesseldorf.de).
-Ich erstelle Web-Anwendungen mit [PHP](https://secure.php.net/), [Symfony](https://symfony.com/) und [TYPO3](https://typo3.org).
+Hauptberuflich arbeite ich für [CHECK24](https://www.check24.de) in [Düsseldorf](https://www.duesseldorf.de).
+Ich erstelle Web-Anwendungen mit [PHP](https://secure.php.net/), [Symfony](https://symfony.com/).
 
 Im Sommer 2019 habe ich meinen Master of Science im Modul IT-Management an der [FOM Hochschule](https://www.fom.de/) in Düsseldorf erworben.
 Dort habe ich bereits mein Studium zum Bachelor of Science in Wirtschaftsinformatik erfolgreich abgeschlossen.
@@ -21,7 +21,10 @@ Auf GitHub gibt es ein Open Source-Paket zur Erstellung von iCal-Kalender von mi
 
 ## Lebenslauf
 
-2018 - heute
+2020 - heute
+: Senior Software Entwickler bei [CHECK24](https://www.check24.de)
+
+2018 - 2020
 : Senior Software-Developer bei [CARL von CHIARI](https://cvc.digital)
 
 2015 - 2019
