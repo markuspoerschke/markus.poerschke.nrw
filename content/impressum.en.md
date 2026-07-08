@@ -1,8 +1,8 @@
-+++
-slug = "imprint"
-title = "Imprint"
-robots = "follow, noindex"
-+++
+---
+slug: "imprint"
+title: "Imprint"
+robots: "follow, noindex"
+---
 
 This imprint applies to:
 
@@ -23,4 +23,4 @@ This imprint applies to:
 
 ## Contact
 
-Email: markus@poerschke.nrw
+Email: [markus@poerschke.nrw](mailto:markus@poerschke.nrw)
